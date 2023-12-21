@@ -1,0 +1,19 @@
+cost = float(input('물건 구매가를 입력하세요 :'))
+
+if cost >= 100000:
+    print(f'할인율: 10%')
+    print(f'할인금액: {cost*0.1}')
+    print(f'지불금액: {cost - cost*0.1}')
+
+elif cost >= 50000:
+    print(f'할인율: 7.5%')
+    print(f'할인금액: {cost*0.075}')
+    print(f'지불금액: {cost - cost*0.075}')
+
+elif cost >= 10000:
+    print(f'할인율: 5%')
+    print(f'할인금액: {cost*0.05}')
+    print(f'지불금액: {cost - cost*0.05}')
+
+else:
+    print('할인 없음')
