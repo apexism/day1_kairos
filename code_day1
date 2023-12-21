@@ -1,0 +1,183 @@
+# print('\'낮말\'은 새가 듣고 \'밤말\'은 쥐가 듣는다.')
+# print('print("hello")')
+# print(1, 2, 3)
+# print(1, 2, 3, sep = '-')
+# print(1, 2, 3, sep = '\'\'', end = '\n')
+
+# name = '정원영'
+# age = 25
+
+# print('나의 이름은 {}이고, 나이는 {}입니다.'.format(name,age))
+
+# x = -1
+# y = 3
+# result = (-y)**3+2*x**2*y
+# print(result)
+
+# a = 3
+# a -= 3
+# print(a)
+
+# s = """
+# heloo
+# hello
+# hello
+# """
+# print(s)
+
+# s2 = "hello\nhello\nhello\n"
+
+# print(s2*2)
+
+# a = 'good'
+# b = 'morning'
+# print(a+b)
+# print(a,b)
+
+# s3 = 'aha'
+# print(s3*3)     #str to str 만 지원함
+
+# c = 'good'
+# d = 24
+# # print(c+d)
+
+# print(c+ str(d))    #24를 문자열로 바꾸기
+
+# S = 'hello world'
+# print(S[6])
+# print(S[-5])
+# print(S[0:6])
+# print(S[6:11])
+# print(S[:5])
+# print(S[:])
+# print(S[::2])
+
+
+# eng_name = 'python'
+# x = 1
+# y = 5
+
+# for _ in range(1):
+#     b = eng_name[y]
+#     print(b)
+#     y -= 1
+
+# for _ in range(1):
+
+#     a = eng_name[x]
+#     print(a)
+#     x -= 1
+
+# num = 3
+# strnum = 5
+# s = 'i eat %d apples' %num
+# s1 = 'i eat '+str(num)+' apples'
+# print(s)
+# print(s1)
+
+# s2 = 'i eat %s apples' %strnum
+# print(s2)
+
+# s3 = 'i ate %d apples. so i was sick for %d days' %(num, strnum)
+# print(s3)
+
+# height = 180.5
+# print('나의 키는 %f 입니다.' %height)
+# num = 3
+# strnum = 5
+# s1 = 'i eat {0} apples'.format(num)
+# print(s1)
+# s2 = 'i eat {0} apples'.format(strnum)
+# print(s2)
+
+# s3 = 'i eat {0} apples. so i sick for {1} days'.format(num, strnum)
+# print(s3)
+
+# #f 스트림
+# s4 = f'i eat{num} apples. so i sick for {strnum}days'
+# print(s4)
+
+# name = '정원영'
+# age = 25
+# msg = f'나의 이름은 {name}이고, 나이는 {age}입니다.'
+# print(msg)
+
+# ddd = '나의 이름은 {0}이고, 나이는 {1}입니다.'.format(name, age)
+# print(ddd) 
+
+# sss = '나의 이름은 %s이고, 나이는 %d입니다.' %(name, age)
+# print(sss)
+
+# a = "life is too short"
+# print(len(a))
+
+# a = "hobby"
+# print(len(a))
+# print(a.count('b'))   
+
+# print(','.join('a, b, c, d'))
+# a = '         hi        '
+# print(a.upper())
+# print(a.lower())
+# print(a.lstrip())
+# print(a.rstrip())
+# print(a.strip())
+
+# a = 'life is too short'
+# print(a.replace('life', 'your leg'))
+
+# email = 'abc@naver.com'
+# print(email.split('@'))
+
+# email = '     abc   @    naver.com'
+# print(email.replace(' ', '').split('@'))
+
+# age = input('나이를 입력하세요:')
+# print(type(age))
+
+# age = int(input('몇살인가요?'))
+# nextage = age + 1
+# print(f'내년이면 {nextage}살이 되겠군요? ㅋ')
+# import time
+
+# ans1 = input('안녕하세요, 이름이 어떻게 되시나요? :')
+# time.sleep(2)
+# ans2 = int(input('오, 이쁜 이름이에요. 혹시 나이는 어떻게 되세요? :'))
+# time.sleep(2)
+# ans3 = input(f'그럼 내년에는 {ans2+1}살이 되시겠네요, {ans1}님! 좋아하는 영화는 있어요? :')
+# if time.sleep(2)
+# print('아....')
+# time.sleep(2)
+# print('그건 좀.....')
+
+# print(bool('python'))
+# print(bool(''))
+# print(bool('1, 2, 3'))
+# print(bool('1'))
+# print(bool('0'))
+# print(int(True))
+# print(int(False))
+
+# score = int(input('please let me know your score:'))
+# if score >= 60:
+#     print(f'오, 좀 치는 녀석인가?{score}점이라니!')
+
+# else:
+#     print(f'{score}점이, 사람이야?')
+
+# score = int(input('당신의 점수를 입력해주세요:'))
+# if score == 100:
+#     print(f'와우, {score}점이라니, 만점이네요')
+
+# elif score >=90:
+#     print(f'{score}점이라니, A등급이네요')
+# elif score >=80:
+#     print(f'{score}점이라니, B등급이네요')
+# elif score >=70:
+#     print(f'{score}점이라니, C등급이네요')
+# elif score >=60:
+#     print(f'{score}점이라니, D등급이네요')
+# elif score <60:
+#     print(f'{score}점이라니, F등급이네요')
+# else:
+#     print('?')
